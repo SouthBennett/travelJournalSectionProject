@@ -64,3 +64,25 @@ article.journal-entry .main-image {
   color: #2b283a;
   font-size: 0.7rem;
 }
+
+.info-container a:visited {
+  color: #918E9B;
+}
+
+.info-container h2.entry-title {
+  margin-top: 7px;
+  margin-bottom: 17px;
+}
+
+.info-container p.trip-dates {
+  font-weight: bold;
+}
+
+.info-container p.entry-text {
+  line-height: 1.5;
+  font-size: 0.8rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
